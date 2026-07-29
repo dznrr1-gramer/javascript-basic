@@ -6,6 +6,6 @@ const hobi = [
     "Memasak"
 ];
 
-console.log(hobi[0]);
-console.log(hobi[2]);
-console.log(hobi[4]);
+console.log(hobi[0]); // Output: Membaca
+console.log(hobi[2]); // Output: Gaming
+console.log(hobi[4]); // Output: Memasak
