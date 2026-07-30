@@ -27,7 +27,4 @@ console.log("Apakah diskon pensil <= diskon buku? :", diskonPensilLebihKecil);
 console.log("Mendapatkan Bonus        :", dapatBonus);
 console.log("Mendapatkan Gratis Ongkir:", dapatGratisOngkir);
 
-// - ✅ 2 Operator Aritmatika
-// - ✅ 1 Operator Assignment
-// - ✅ 2 Operator Perbandingan
-// - ✅ 2 Operator Logika
+//sudah
