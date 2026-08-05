@@ -6,19 +6,3 @@ function tampilkanProduk(namaProduk, harga, stok) {
 
 tampilkanProduk("Mouse", 150000, 12);
 
-// - namaProduk
-// - harga
-// - stok
-
-// Contoh:
-
-// ```javascript
-// tampilkanProduk("Mouse", 150000, 12);
-// ```
-
-// Output:
-
-// ```
-// Produk : Mouse
-// Harga  : Rp150000
-// Stok   : 12
