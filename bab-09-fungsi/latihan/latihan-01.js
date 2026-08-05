@@ -3,3 +3,5 @@ function salam() {
 }
 
 salam();
+salam();
+salam();
