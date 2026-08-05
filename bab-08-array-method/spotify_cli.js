@@ -42,7 +42,7 @@ do {
             playlist.push(lagu);
             console.log(`✅ "${lagu}" berhasil ditambahkan.`);
         }
-
+        
         prompt("\nTekan Enter untuk kembali...");
     }
 
