@@ -6,17 +6,3 @@ const buku = {
 
 console.log(buku.judul);
 console.log(buku.harga);
-// ```
-
-// Tampilkan:
-
-// - Judul buku
-// - Harga buku
-
-// Gunakan **Dot Notation**.
-
-// Output:
-
-// ```
-// Belajar JavaScript
-// 120000
