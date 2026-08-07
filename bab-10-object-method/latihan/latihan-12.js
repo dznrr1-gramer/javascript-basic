@@ -7,4 +7,4 @@ const laptop = {
 
 for (let key in laptop) {
   console.log(key + ": " + laptop[key]);
-}
+};
