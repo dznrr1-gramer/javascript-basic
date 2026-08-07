@@ -9,6 +9,7 @@
 // // 5. `{ nama: "Budi" }`
 
 // // Tuliskan jawabanmu beserta alasannya.
+
 // // Jawaban:
 
 // 1. `"Indonesia"` - **Iterable**. String adalah tipe data yang dapat diiterasi, sehingga kita bisa menggunakan loop seperti `for...of` untuk mengakses setiap karakter dalam string.
