@@ -1,4 +1,4 @@
- const laptop = {
+const laptop = {
   merek: "ASUS",
   ram: "16GB",
   storage: "512GB",

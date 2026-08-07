@@ -1,4 +1,4 @@
- const siswa = {
+const siswa = {
   nama: "Budi",
   umur: 17,
   kelas: "XI RPL",
