@@ -3,16 +3,16 @@ function buatRekening(saldoAwal) {
 
   return {
     cekSaldo: function () {
-      console.log(`Saldo saat ini: ${saldo}`);
+      console.log("Saldo saat ini:", saldo);
     },
     setor: function (jumlah) {
       saldo += jumlah;
-      console.log(`Setoran berhasil. Saldo: ${saldo}`);
+      console.log("Setoran berhasil. Saldo:", saldo);
     },
     tarik: function (jumlah) {
       if (jumlah <= saldo) {
         saldo -= jumlah;
-        console.log(`Penarikan berhasil. Saldo: ${saldo}`);
+        console.log("Penarikan berhasil. Saldo:", saldo);
       } else {
         console.log("Saldo tidak mencukupi.");
       }
