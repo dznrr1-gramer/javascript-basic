@@ -11,4 +11,4 @@ console.log(pesan);
 // ReferenceError: pesan is not defined
 
 // tidak berhasil 
-//Baris console.log(pesan) di luar blok if tidak dapat mengoperasikan variabel tersebut.
+// Baris console.log(pesan) di luar blok if tidak dapat mengoperasikan variabel tersebut.
