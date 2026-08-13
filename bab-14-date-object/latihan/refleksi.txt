@@ -1,0 +1,23 @@
+1. Apa fungsi new Date()?
+Untuk membuat objek tanggal
+2. Mengapa bulan pada JavaScript dimulai dari 0?
+Bulan di JavaScript menggunakan penomoran berbasis indeks nol (zero-indexed, 0 - 11) mengikutsertakan tradisi pemrograman lama (seperti bahasa C)
+3. Apa perbedaan getDate() dan getDay()?
+grtDate menampilkan tanggal
+getDay menampilkan hari
+4. Apa fungsi getTime()?
+menghitung waktu
+5. Mengapa kita perlu menggunakan getMonth() + 1 ketika menampilkan bulan?
+Karena getMonth() menghasilkan angka dari 0 hingga 11. Untuk menampikkannya ke format manusia yang terbiasa dengan angka bulan 1 hingga 12 (Januari = 1, Desember = 12), kita perlu menambahkan angka 1
+6. Apa perbedaan Getter Method dan Setter Method?
+Getter untuk mengambil data
+setter untuk mengubah data
+7. Apa kegunaan toLocaleDateString()?
+Memformat tanggal sesuai lokal/daerahnya
+8. Bagaimana cara menghitung selisih dua tanggal?
+menggunakan if selisih :
+if (selisihMs < 0) {
+    return "Tanggal sudah terlewat.";
+  }
+9. Dalam aplikasi nyata, fitur apa saja yang dapat menggunakan Date Object?
+hampir semua bisa contoh : hitung mundur pembayaran, kalender, penyimpanan foto, kirim pesan di wa, dll
