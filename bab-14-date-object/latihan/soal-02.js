@@ -7,9 +7,9 @@ const hari = sekarang.getDay();
 const jam = sekarang.getHours();
 const menit = sekarang.getMinutes();
 
-console.log("Tahun", tahun);
-console.log("Bulan", bulan);
-console.log("Tanggal", tanggal);
-console.log("Hari", hari);
-console.log("Jam", jam);
-console.log("Menit", menit);
+console.log("Tahun : ", tahun);
+console.log("Bulan : ", bulan);
+console.log("Tanggal : ", tanggal);
+console.log("Hari : ", hari);
+console.log("Jam : ", jam);
+console.log("Menit : ", menit);
