@@ -1,10 +1,8 @@
 const sekarang = new Date("2026-08-13");
 const deadline = new Date("2026-08-20");
 
-// Menghitung selisih waktu dalam milidetik
 const selisihMs = deadline.getTime() - sekarang.getTime();
 
-// Konversi milidetik ke hari (1 hari = 24 * 60 * 60 * 1000 ms)
 const selisihHari = Math.ceil(selisihMs / (1000 * 60 * 60 * 24));
 
 const deadlineFormatted = deadline.toLocaleDateString("id-ID", {
