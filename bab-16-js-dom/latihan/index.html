@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Santri</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="dashboard-container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo-area">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <span>Portal Santri</span>
+      </div>
+      <div class="header-badge">Hallo</div>
+    </header>
+
+    <!-- Content Grid -->
+    <main class="grid-layout">
+      <!-- Card Profil Santri -->
+      <section class="card profile-card">
+        <div class="avatar-wrapper">
+          <div class="avatar" id="avatar-initial"></div>
+          <span class="status-indicator"></span>
+        </div>
+        <h2 id="santri-nama" class="santri-name">-</h2>
+        
+        <div class="info-list">
+          <div class="info-item">
+            <span class="label"><i class="fa-solid fa-door-open"></i> Kelas</span>
+            <span id="santri-kelas" class="value">-</span>
+          </div>
+          <div class="info-item">
+            <span class="label"><i class="fa-solid fa-shield-halved"></i> Status</span>
+            <span id="santri-status" class="status-pill">-</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Card Aktivitas Santri -->
+      <section class="card activity-card">
+        <div class="card-header">
+          <h3><i class="fa-solid fa-list-check"></i> Log Aktivitas Hari Ini</h3>
+          <span id="activity-count" class="count-badge">0 Aktivitas</span>
+        </div>
+
+        <ul id="activity-list" class="activity-list">
+          <!-- Elemen li akan di-render via JavaScript DOM -->
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
